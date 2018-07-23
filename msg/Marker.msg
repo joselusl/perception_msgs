@@ -2,13 +2,13 @@
 Header header
 
 # Id of the visual marker
-uint32 id
+string id
 
 # Size of the visual marker if available
-float32 size
+float32[] size
 
 # Points of the visual marker in the Image
-perception_msgs/PointInImage[] pointsInImage
+perception_msgs/LabeledPointInImage[] labeledPointsInImage
 
 # Flag for the 3D reconstruction
 bool is3dReconstructed

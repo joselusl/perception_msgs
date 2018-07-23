@@ -43,8 +43,7 @@ add_message_files(
         Marker.msg
         MarkerList.msg
         PointInImage.msg
-
-
+	LabeledPointInImage.msg
 )
 
 
