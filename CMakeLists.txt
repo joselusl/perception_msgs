@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-set(PROJECT_NAME perception_msgs)
-project(${PROJECT_NAME})
+project(perception_msgs)
 
 
 # check c++11 / c++0x
@@ -59,5 +58,5 @@ catkin_package(
 
 
 
-include_directories(${catkin_INCLUDE_DIRS})
+#include_directories(${catkin_INCLUDE_DIRS})
 
